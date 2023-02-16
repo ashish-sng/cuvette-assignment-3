@@ -1,0 +1,56 @@
+body{
+    background-color: #f2f2f2;
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#number{
+    font-size: 100px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    border: none;
+    color: yellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    height: 4rem;
+    width: 11rem;
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.lt-button,.rt-button {
+    height: 4rem;
+    margin:0 5px;
+    border: #333 1px solid;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
