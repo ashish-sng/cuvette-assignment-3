@@ -54,3 +54,14 @@ body{
     align-items: center;
 
 }
+
+.reset {
+    border: black solid 1px;
+    border-radius: 50%;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
